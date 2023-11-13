@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teacher SYSTEM "teacher.dtd">
+<teacher>
+  <name>Dr. Iti Burman</name>
+  <subject>Web Technology</subject>
+  <email>teacher@example.com</email>
+</teacher>

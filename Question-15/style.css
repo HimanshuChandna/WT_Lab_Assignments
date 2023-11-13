@@ -1,0 +1,11 @@
+/* Custom styles go here */
+body {
+    padding-top: 56px; /* Adjusted for the fixed navbar height */
+  }
+  
+  .jumbotron {
+    background-color: #e9ecef;
+  }
+  
+  /* Add more custom styles as needed */
+  

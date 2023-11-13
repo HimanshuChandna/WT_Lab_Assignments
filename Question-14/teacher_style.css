@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  teacher {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  name {
+    font-weight: bold;
+  }
+  
+  subject, email {
+    color: #555;
+  }
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dialog Boxes and Inbuilt Functions Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Dialog Boxes and Inbuilt Functions Example</h1>
+
+  <button onclick="showAlert()">Show Alert</button>
+  <button onclick="showPrompt()">Show Prompt</button>
+  <button onclick="showConfirm()">Show Confirm</button>
+
+  <script>
+    // Function to show an alert dialog
+    function showAlert() {
+      alert("This is an alert!");
+    }
+
+    // Function to show a prompt dialog and display the entered value
+    function showPrompt() {
+      var userInput = prompt("Enter something:");
+      if (userInput !== null) {
+        alert("You entered: " + userInput);
+      }
+    }
+
+    // Function to show a confirm dialog and display the user's choice
+    function showConfirm() {
+      var userChoice = confirm("Do you like dialog boxes?");
+      if (userChoice) {
+        alert("Great! Dialog boxes are awesome!");
+      } else {
+        alert("Oh no! Let's improve dialog boxes!");
+      }
+    }
+  </script>
+
+</body>
+</html>

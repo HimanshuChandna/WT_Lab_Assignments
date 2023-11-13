@@ -1,0 +1,4 @@
+<!ELEMENT teacher (name, subject, email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

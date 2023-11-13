@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Handling Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    #hoverElement {
+      font-size: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Event Handling Example</h1>
+
+  <button onclick="handleClick()">Click me</button>
+  <button onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">Hover me</button>
+
+  <div id="hoverElement">Hover over me</div>
+
+  <script>
+    // Function to handle click event
+    function handleClick() {
+      alert("Button clicked!");
+    }
+
+    // Function to handle mouseover event
+    function handleMouseOver() {
+      document.getElementById("hoverElement").innerHTML = "Mouse Over!";
+    }
+
+    // Function to handle mouseout event
+    function handleMouseOut() {
+      document.getElementById("hoverElement").innerHTML = "Hover over me";
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date, Math, and String Objects Example</title>
+</head>
+<body>
+
+  <h1>Date, Math, and String Objects Example</h1>
+
+  <script>
+    // Date Object
+    const currentDate = new Date();
+    document.write("<p>Current Date: " + currentDate + "</p>");
+
+    // Math Object
+    const randomNum = Math.random(); // Generates a random number between 0 and 1
+    document.write("<p>Random Number: " + randomNum + "</p>");
+
+    const squareRoot = Math.sqrt(16); // Calculates the square root
+    document.write("<p>Square Root: " + squareRoot + "</p>");
+
+    const roundedNumber = Math.round(3.7); // Rounds to the nearest integer
+    document.write("<p>Rounded Number: " + roundedNumber + "</p>");
+
+    // String Object
+    const exampleString = "Hello, World!";
+    document.write("<p>Original String: " + exampleString + "</p>");
+
+    const upperCaseString = exampleString.toUpperCase(); // Converts to uppercase
+    document.write("<p>Uppercase String: " + upperCaseString + "</p>");
+
+    const lowerCaseString = exampleString.toLowerCase(); // Converts to lowercase
+    document.write("<p>Lowercase String: " + lowerCaseString + "</p>");
+
+    const slicedString = exampleString.slice(0, 5); // Extracts a portion of the string
+    document.write("<p>Sliced String: " + slicedString + "</p>");
+  </script>
+
+</body>
+</html>
